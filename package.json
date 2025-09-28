@@ -2,7 +2,7 @@
   "name": "library-management-server",
   "private": true,
   "scripts": {
-    "prod": "node dist/server.js",
+    "start": "node dist/server.js",
     "dev": "bun run ts-node-dev --respawn --transpile-only src/server.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
